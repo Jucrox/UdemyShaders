@@ -23,7 +23,8 @@ Material:
   m_Name: EXPERTO_Dissolve
   m_Shader: {fileID: -6465566751694194690, guid: 1d97a5445878d7f4cb71b0580240ebc7,
     type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _DIRECTION_ALL
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -49,10 +50,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _Boolean: 0
+    - _DIRECTION: 0
+    - _DISSOLVE: 1.0001186
     - _Dissolve: 1
-    - _Edge_Width: 0.5
-    - _Noise_Scale: 50
-    - _Noise_Strength: 5
+    - _Edge_Width: 0.095
+    - _Noise_Scale: 42.2
+    - _Noise_Strength: 0.82
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
