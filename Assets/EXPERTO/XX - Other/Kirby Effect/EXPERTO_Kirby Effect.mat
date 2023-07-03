@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2891356274387082770
+--- !u!114 &-8189105988686175061
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,10 +20,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EXPERTO_Distance Fog
-  m_Shader: {fileID: -6465566751694194690, guid: 0fb447b21e972e84cac7775ee4b15bd5,
+  m_Name: EXPERTO_Kirby Effect
+  m_Shader: {fileID: -6465566751694194690, guid: 265be813057e8364b9ebd9a02b5c3990,
     type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _AXIS_X
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -92,6 +93,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AXIS: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -101,7 +103,6 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Distance: 28.1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -122,9 +123,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_Far: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_Near: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.5283019, g: 0.24122463, b: 0.24122463, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Player_Position: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

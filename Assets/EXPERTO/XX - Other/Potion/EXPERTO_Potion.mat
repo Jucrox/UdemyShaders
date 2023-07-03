@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2891356274387082770
+--- !u!114 &-1511653256961609589
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EXPERTO_Distance Fog
-  m_Shader: {fileID: -6465566751694194690, guid: 0fb447b21e972e84cac7775ee4b15bd5,
+  m_Name: EXPERTO_Potion
+  m_Shader: {fileID: -6465566751694194690, guid: 4742e7f17189830449ed629232c693d5,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -97,13 +97,16 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Color_Threshold: -0.45
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Distance: 28.1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _Fill: 0.588
+    - _Fresnel: 3
+    - _Fresnel_Color_Threshold: -0.55
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -122,9 +125,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_Far: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_Near: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
